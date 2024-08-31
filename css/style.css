@@ -85,9 +85,64 @@ img {
 }
 
 .propaganda-main {
+    margin-top: 1em !important;
     color: white !important;
+    padding-top: 5em !important;
+    padding-right: 2em !important;
+    background-image: url(/img/java-desktop-hero.webp);
+    background-size: 85% !important;
+    background-repeat: no-repeat !important;
+    background-position: 75% 0% !important;
 }
 
 .java-h {
-    font-size: 2em !important;
+    color: white !important;
+    font-size: 3em !important;
+    padding-bottom: 0.5em !important;
 }
+
+.botao-condicao{
+    background-color: #8264FA !important;
+    font-weight: 500 !important;
+}
+
+.texto-java-p{
+    padding-bottom: 1.5em !important;
+}
+
+.planos-gradiente{
+    background: linear-gradient(to right, #00933A, #00A4AE, #5350FF, #8D47FF, #A1009B);
+    width: 60% !important;
+    padding: 1em !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 1.2em !important;  
+    margin-top: 2em !important;
+    border-radius: 10px !important;
+    margin-left: 22% !important;
+    flex: 1 !important;
+    display: flex !important;
+    font-family:"Josefin Sans", sans-serif !important;
+}
+
+.botao-gradiente {
+    padding-left: 26% !important;    
+}
+
+.botao-botao-gradi {
+    background-color: white !important;
+    color: #5350FF !important;
+    font-weight: bold !important;
+    font-family:"Josefin Sans", sans-serif !important;
+}
+
+footer {
+    background-color: black !important;
+    color: #c5c3c3 !important;
+    position: absolute !important;
+    bottom:0% !important;
+    width: 100% !important;
+    padding: 0.5em !important;
+    text-align: center !important;
+}
+
