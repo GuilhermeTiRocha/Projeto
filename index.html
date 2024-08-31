@@ -11,11 +11,51 @@
 
 </head>
 <body>
-    <header>
-
+    <header class="row">
+            <div class="col-6 titulo-header">
+                <h1>Estude <br> Tecnologia</h1>
+            </div>
+            <div class="col-6 lista-header">
+                <ul>
+                    <a href="#">
+                        <li>FORMAÇÃO</li>
+                    </a>
+                    <a href="#">
+                        <li>SOBRE NÓS</li>
+                    </a>
+                    <a href="#">
+                        <li>ENTRAR</li>
+                    </a>
+                    <a href="#">
+                        <li class="borda_botao">ASSINAR AGORA &nbsp; > </li>
+                    </a>
+                </ul>
+            </div>
     </header>
     <main>
-
+        <div class="row principal-pagina">
+            <div class="col-6 formulario">
+                <h2>INSCREVA-SE AGORA PARA <br> A <span class="palavra_roxa">PRÓXIMA TURMA!</span></h2>
+                <form action="/action_page.php formulario-mae">
+                    <div class="mb-3 mt-3 formulario-nome">
+                      <label for="email" class="form-label">Nome:</label>
+                      <input type="text" class="form-control form-control-sm" placeholder="Nome">
+                    </div>
+                    <div class="mb-3 formulario-email">
+                      <label for="pwd" class="form-label">E-mail:</label>
+                      <input type="text" class="form-control form-control-sm" placeholder="E-mail">
+                    </div>
+                    <button type="submit" class="btn btn-primary formulario-botao">Enviar</button>
+                  </form>
+            </div>
+            <div class="col-6 propaganda-main">
+                <h3 class="java-h">Formação em Java</h3>
+                <p>Domine uma das linguagens mais usadas no 
+                    mundo, do zero ao avançado, desenvolvend
+                    o aplicações completas e escaláveis 
+                    usando Spring Boot.</p>
+            </div>
+        </div>
     </main>
     <footer>
 
