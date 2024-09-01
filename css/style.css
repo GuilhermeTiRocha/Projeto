@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     background-color: black !important;
@@ -146,3 +150,8 @@ footer {
     text-align: center !important;
 }
 
+@media (min-width: 375px) and (max-width: 1400px) {
+    .cabecalho {
+        
+    }
+}
