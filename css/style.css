@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
+.navegacao-header {
     background-color: black !important;
-    height: 135px !important;
 }
 
 .titulo-header {
@@ -17,25 +11,20 @@ header {
     margin-top: 0.8em !important;
     padding-left: 2em !important;
     font-weight: 500 !important;
+    padding-bottom: 0.5em !important;
 }
 
-.lista-header {
-    color: #c5c3c3 !important;
+.teste {
+    margin-left: 50% !important;
 }
 
-.lista-header, li, a {
-    display: inline !important;
-    font-family: "Josefin Sans", sans-serif !important;
-    font-size: 15px !important;
-    margin-top: 2.5em !important;
-    padding: 1em !important;
-    text-decoration: none !important;
-    color: #c5c3c3;
+.teste, li {
+    padding: 0.5em !important;
 }
 
 .borda_botao {
    color: #8264FA !important;
-   font-size: 19px !important;
+   font-size: 18px !important;
 }
 
 body {
@@ -119,11 +108,11 @@ img {
 .planos-gradiente{
     background: linear-gradient(to right, #00933A, #00A4AE, #5350FF, #8D47FF, #A1009B);
     width: 60% !important;
-    padding: 1em !important;
+    padding: 1.5em !important;
     text-align: center !important;
     color: white !important;
     font-size: 1.2em !important;  
-    margin-top: 2em !important;
+    margin-top: 5% !important;
     border-radius: 10px !important;
     margin-left: 22% !important;
     flex: 1 !important;
@@ -132,7 +121,7 @@ img {
 }
 
 .botao-gradiente {
-    padding-left: 26% !important;    
+    padding-left: 30% !important;    
 }
 
 .botao-botao-gradi {
@@ -145,9 +134,18 @@ img {
 footer {
     background-color: black !important;
     color: #c5c3c3 !important;
-    position: absolute !important;
-    bottom:0% !important;
+  /*  position: absolute !important;
+    bottom:0% !important;*/
     width: 100% !important;
-    padding: 0.5em !important;
+    padding: 1em !important;
     text-align: center !important;
+}
+
+.nav-top{
+    color: white !important;
+    background-color: black !important;
+}
+
+@media (min-width: 375) and (max-width: 600px) {
+
 }
